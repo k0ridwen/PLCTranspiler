@@ -1,0 +1,9 @@
+[package]
+name = "plc-transpiler"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+clap.workspace = true
+plc-ld-ir = { path = "../ld-ir" }
+plc-st-frontend = { path = "../st-frontend" }

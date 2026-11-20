@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/st-frontend",
+    "crates/ld-ir",
+    "crates/cli",
+]
+
+[workspace.dependencies]
+thiserror = "2"
+miette = "7"
+pest = "2"
+pest_derive = "2"
+clap = "4"
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
