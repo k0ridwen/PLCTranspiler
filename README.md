@@ -1,2 +1,4 @@
 # PLCTranspiler
-A Ladder &lt;-> ST transpiler
+A Ladder -> ST transpiler
+
+Work in progress...
